@@ -1,0 +1,38 @@
+
+
+    - composer --version
+    This shows the current version of Composer installed on your system.
+
+    - composer self-update
+    This updates Composer to the latest stable version.
+
+    - composer install
+    This command installs all the dependencies listed in the composer.json file.
+
+    - composer require vendor/package
+    This adds a new package to your project and updates the composer.json and composer.lock files.
+
+    - composer remove vendor/package
+    This removes a package from your project and updates the composer.json and composer.lock files.
+
+    - composer update
+    This updates all dependencies to the latest versions according to the version constraints defined in the composer.json file.
+
+    - composer outdated
+    This lists packages that have newer versions available.
+
+    - composer create-project vendor/package
+    This creates a new project by downloading the package and setting up the initial structure.
+
+    - composer dump-autoload
+    This regenerates the list of all classes that need to be autoloaded.
+
+    - composer show
+    This lists all installed packages with their versions and details.
+
+
+
+    - composer global require vendor/package 
+    This installs a package globally, making it accessible in any project on your system.
+
+
